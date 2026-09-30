@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>FLUYE | Hidratación Consciente &amp; Botellas Térmicas de Diseño</title>
+<!-- Google Fonts: Plus Jakarta Sans -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Config Verbatim -->
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "on-secondary-fixed-variant": "#004b73",
+            "on-background": "#191c1e",
+            "on-tertiary-fixed": "#002114",
+            "on-primary": "#ffffff",
+            "surface-tint": "#565e74",
+            "outline-variant": "#c6c6cd",
+            "secondary": "#006398",
+            "tertiary": "#000000",
+            "primary-container": "#131b2e",
+            "on-tertiary-container": "#069669",
+            "surface-variant": "#e0e3e5",
+            "surface-container": "#eceef0",
+            "surface-bright": "#f7f9fb",
+            "on-secondary": "#ffffff",
+            "inverse-on-surface": "#eff1f3",
+            "tertiary-container": "#002114",
+            "on-surface-variant": "#45464d",
+            "on-primary-fixed-variant": "#3f465c",
+            "error-container": "#ffdad6",
+            "on-secondary-container": "#00476e",
+            "on-tertiary": "#ffffff",
+            "inverse-surface": "#2d3133",
+            "secondary-container": "#5bb8fe",
+            "primary": "#000000",
+            "on-surface": "#191c1e",
+            "background": "#f7f9fb",
+            "primary-fixed-dim": "#bec6e0",
+            "on-secondary-fixed": "#001d31",
+            "tertiary-fixed": "#85f8c4",
+            "on-error": "#ffffff",
+            "surface-container-low": "#f2f4f6",
+            "on-primary-fixed": "#131b2e",
+            "on-primary-container": "#7c839b",
+            "secondary-fixed": "#cce5ff",
+            "surface-container-highest": "#e0e3e5",
+            "surface-container-lowest": "#ffffff",
+            "on-error-container": "#93000a",
+            "surface": "#f7f9fb",
+            "surface-dim": "#d8dadc",
+            "error": "#ba1a1a",
+            "tertiary-fixed-dim": "#68dba9",
+            "secondary-fixed-dim": "#93ccff",
+            "on-tertiary-fixed-variant": "#005137",
+            "inverse-primary": "#bec6e0",
+            "primary-fixed": "#dae2fd",
+            "surface-container-high": "#e6e8ea",
+            "outline": "#76777d"
+          },
+          "borderRadius": {
+            "DEFAULT": "1rem",
+            "lg": "2rem",
+            "xl": "3rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "margin": "3rem",
+            "space-2xl": "4rem",
+            "space-3xl": "6rem",
+            "gutter-mobile": "1rem",
+            "gutter": "1.5rem",
+            "space-sm": "0.5rem",
+            "margin-mobile": "1.25rem",
+            "space-xl": "2.5rem",
+            "space-xs": "0.25rem",
+            "space-lg": "1.5rem",
+            "space-md": "1rem"
+          },
+          "fontFamily": {
+            "label-sm": ["Plus Jakarta Sans"],
+            "headline-lg": ["Plus Jakarta Sans"],
+            "body-md": ["Plus Jakarta Sans"],
+            "body-sm": ["Plus Jakarta Sans"],
+            "label-uppercase": ["Plus Jakarta Sans"],
+            "headline-sm": ["Plus Jakarta Sans"],
+            "body-lg": ["Plus Jakarta Sans"],
+            "display-hero": ["Plus Jakarta Sans"],
+            "display-hero-mobile": ["Plus Jakarta Sans"],
+            "headline-md": ["Plus Jakarta Sans"],
+            "headline-lg-mobile": ["Plus Jakarta Sans"],
+            "label-md": ["Plus Jakarta Sans"]
+          },
+          "fontSize": {
+            "label-sm": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "500" }],
+            "headline-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "600" }],
+            "body-md": ["15px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "400" }],
+            "body-sm": ["13px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "400" }],
+            "label-uppercase": ["11px", { "lineHeight": "16px", "letterSpacing": "0.12em", "fontWeight": "700" }],
+            "headline-sm": ["20px", { "lineHeight": "28px", "letterSpacing": "0em", "fontWeight": "600" }],
+            "body-lg": ["18px", { "lineHeight": "28px", "letterSpacing": "-0.005em", "fontWeight": "400" }],
+            "display-hero": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.03em", "fontWeight": "700" }],
+            "display-hero-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+            "headline-md": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+            "headline-lg-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+            "label-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "500" }]
+          }
+        },
+      },
+    }
+  </script>
+<style>
+    .glass-pill {
+      background: rgba(255, 255, 255, 0.75);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.85);
+    }
+    .glass-card {
+      background: rgba(255, 255, 255, 0.65);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.7);
+    }
+  </style>
+</head>
+<body class="bg-background text-on-surface antialiased selection:bg-secondary-fixed selection:text-on-secondary-fixed">
+<!-- 1. Top Announcement Bar -->
+<div class="bg-primary text-on-primary py-2.5 px-4 text-center">
+<div class="max-w-7xl mx-auto flex items-center justify-center gap-3 font-label-sm text-label-sm tracking-wide">
+<span class="inline-flex items-center gap-1.5 font-semibold text-secondary-fixed">
+<span class="material-symbols-outlined text-[16px]">local_shipping</span> Envío gratis en órdenes sobre $50
+      </span>
+<span class="opacity-40">•</span>
+<span class="hidden sm:inline-flex items-center gap-1.5 opacity-90">
+<span class="material-symbols-outlined text-[16px]">verified</span> Garantía de por vida de temperatura
+      </span>
+<span class="opacity-40 hidden md:inline">•</span>
+<span class="hidden md:inline-flex items-center gap-1.5 text-tertiary-fixed font-medium">
+<span class="material-symbols-outlined text-[16px]">eco</span> B-Corp Certified &amp; 100% Reciclable
+      </span>
+</div>
+</div>
+<!-- 2. Shared Component: TopNavBar (Exact mapping from JSON source) -->
+<header class="docked full-width top-0 sticky z-50 bg-surface/80 dark:bg-inverse-surface/80 backdrop-blur-md shadow-sm dark:shadow-none border-b border-outline-variant/40 dark:border-outline/20">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-6 md:px-12 h-20">
+<!-- Brand Logo Anchor -->
+<a class="flex items-center gap-2 group" href="#">
+<span class="text-headline-md font-headline-md tracking-wider font-extrabold text-primary dark:text-inverse-primary flex items-center">
+          FLUYE
+          <span class="w-2 h-2 rounded-full bg-secondary inline-block ml-1 group-hover:scale-125 transition-transform duration-200"></span>
+</span>
+</a>
+<!-- Desktop Navigation Links (JSON Navigation) -->
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-primary dark:text-inverse-primary font-bold border-b-2 border-primary dark:border-inverse-primary pb-1 font-label-md text-label-md hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-150" href="#colecciones">Colecciones</a>
+<a class="text-on-surface-variant dark:text-surface-variant transition-colors pb-1 font-label-md text-label-md hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-150" href="#personalizacion">Personalización</a>
+<a class="text-on-surface-variant dark:text-surface-variant transition-colors pb-1 font-label-md text-label-md hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-150" href="#mision">Nuestra Misión</a>
+<a class="text-on-surface-variant dark:text-surface-variant transition-colors pb-1 font-label-md text-label-md hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-150" href="#tecnologia">Tecnología Térmica</a>
+<a class="text-on-surface-variant dark:text-surface-variant transition-colors pb-1 font-label-md text-label-md hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-150" href="#faq">FAQ</a>
+</nav>
+<!-- Trailing Action Items (JSON mapping: Comprar, USD, search, shopping_bag) -->
+<div class="flex items-center gap-4">
+<button aria-label="Buscar" class="p-2 text-on-surface-variant hover:text-secondary transition-colors duration-150 rounded-full hover:bg-surface-container" type="button">
+<span class="material-symbols-outlined text-[22px]">search</span>
+</button>
+<button class="relative p-2 text-on-surface-variant hover:text-secondary transition-colors duration-150 rounded-full hover:bg-surface-container" id="cartButton" type="button">
+<span class="material-symbols-outlined text-[22px]">shopping_bag</span>
+<span class="absolute top-1 right-1 w-4 h-4 bg-secondary text-on-secondary rounded-full font-label-sm text-[10px] flex items-center justify-center font-bold">2</span>
+</button>
+<span class="hidden sm:inline-block font-label-sm text-label-sm text-outline font-semibold px-2 py-1 rounded bg-surface-container-low">USD</span>
+<a class="hidden sm:inline-flex items-center justify-center bg-primary text-on-primary font-label-md text-label-md font-semibold px-5 py-2.5 rounded-full hover:bg-primary-container active:scale-95 transition-all duration-150 shadow-sm" href="#coleccion-nova">
+          Comprar
+        </a>
+<!-- Mobile Menu Trigger -->
+<button class="md:hidden p-2 text-on-surface" onclick="document.getElementById('mobileMenu').classList.toggle('hidden')" type="button">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+<!-- Mobile Dropdown Navigation -->
+<div class="hidden md:hidden px-6 pt-2 pb-6 bg-surface-container-lowest border-b border-outline-variant/40 space-y-3" id="mobileMenu">
+<a class="block font-label-md text-label-md font-bold text-primary py-2" href="#colecciones">Colecciones</a>
+<a class="block font-label-md text-label-md text-on-surface-variant py-2" href="#personalizacion">Personalización</a>
+<a class="block font-label-md text-label-md text-on-surface-variant py-2" href="#mision">Nuestra Misión</a>
+<a class="block font-label-md text-label-md text-on-surface-variant py-2" href="#tecnologia">Tecnología Térmica</a>
+<a class="block font-label-md text-label-md text-on-surface-variant py-2" href="#faq">FAQ</a>
+<a class="w-full text-center block bg-primary text-on-primary font-label-md py-3 rounded-full mt-4" href="#coleccion-nova">Comprar</a>
+</div>
+</header>
+<!-- 3. Hero Section (Aspirational, Nordic clarity, Minimalist luxury) -->
+<section class="relative overflow-hidden pt-8 pb-16 md:py-24">
+<div class="max-w-7xl mx-auto px-6 md:px-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Left Content (7 Cols Desktop) -->
+<div class="lg:col-span-7 space-y-6">
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-uppercase text-label-uppercase">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+            NUEVA ERA EN HIDRATACIÓN DIARIA
+          </div>
+<h1 class="font-display-hero text-display-hero-mobile md:text-display-hero text-primary tracking-tight leading-none">
+            El arte de mantenerte hidratado. <span class="text-secondary font-light">Sin plástico</span>, sin concesiones.
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+            24 horas frío, 12 horas calor. Acero inoxidable de grado médico y diseño ergonómico escandinavo concebido para acompañarte en tu ritmo diario con pureza inalterable.
+          </p>
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 pt-2">
+<a class="inline-flex items-center justify-center gap-2 bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md font-semibold px-8 py-4 rounded-full transition-all shadow-md active:scale-95 group" href="#coleccion-nova">
+<span>Descubrir Colección Nova</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+<a class="inline-flex items-center justify-center gap-2 bg-secondary-fixed/50 hover:bg-secondary-fixed text-secondary font-label-md text-label-md font-semibold px-7 py-4 rounded-full transition-colors border border-secondary/20" href="#tecnologia">
+<span class="material-symbols-outlined text-[18px]">view_in_ar</span>
+<span>Explorar Tecnología</span>
+</a>
+</div>
+<!-- Proof Metrics Cluster -->
+<div class="grid grid-cols-3 gap-6 pt-6 border-t border-outline-variant/30">
+<div>
+<div class="font-headline-sm text-headline-sm font-bold text-primary">24h</div>
+<div class="font-label-uppercase text-label-uppercase text-on-surface-variant">Frío Glaciar</div>
+</div>
+<div>
+<div class="font-headline-sm text-headline-sm font-bold text-primary">12h</div>
+<div class="font-label-uppercase text-label-uppercase text-on-surface-variant">Calor Seguro</div>
+</div>
+<div>
+<div class="font-headline-sm text-headline-sm font-bold text-on-tertiary-container">100%</div>
+<div class="font-label-uppercase text-label-uppercase text-on-surface-variant">Cero Plástico</div>
+</div>
+</div>
+</div>
+<!-- Right Visual Showcase (5 Cols Desktop) -->
+<div class="lg:col-span-5 relative flex justify-center items-center">
+<div class="relative w-full max-w-md aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl border border-white/60 bg-surface-container-low group">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Minimalist luxury insulated water bottle in matte Arctic Glacier blue standing on a smooth frosted stone surface with subtle fresh condensation droplets. Soft Scandinavian morning lighting creates high-contrast gentle reflections across the satin powder coat. The background is a calm, pure blurred Nordic lake landscape with clean cool white and subtle slate tones, radiating purity and refined industrial elegance." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBo9-F-E4l1OZFtuFOsIa3679BOBTbH4Dc32pPJUn0effU6jwFkmR9W_MafsbhAVc8D1Ob_KFEIA8ws42YLUtq3PzofLaj3vjZcKWqqgu5ILo3PsmqEIve6pggdQlQ0YMM20xKzfBZYjQVw35ErKxF2-i3iOVAXcWq-adOdIf0BeGS2OYE9i667B6BFsm-hK3FxoP6M_hPjHbOSbh_5m5pjFKlPyH4tkpdJdpJqOJZg2rLnsNLJTJhwgA"/>
+<!-- Floating Value Chips with Glassmorphism -->
+<div class="absolute top-6 left-6 glass-pill px-3.5 py-1.5 rounded-full flex items-center gap-2 shadow-sm">
+<span class="material-symbols-outlined text-secondary text-[16px]">ac_unit</span>
+<span class="font-label-uppercase text-label-uppercase text-primary font-bold">24H FRÍO</span>
+</div>
+<div class="absolute top-20 right-6 glass-pill px-3.5 py-1.5 rounded-full flex items-center gap-2 shadow-sm">
+<span class="material-symbols-outlined text-amber-600 text-[16px]">local_fire_department</span>
+<span class="font-label-uppercase text-label-uppercase text-primary font-bold">12H CALOR</span>
+</div>
+<div class="absolute bottom-6 left-6 glass-pill px-3.5 py-1.5 rounded-full flex items-center gap-2 shadow-sm">
+<span class="material-symbols-outlined text-emerald-600 text-[16px]">lock</span>
+<span class="font-label-uppercase text-label-uppercase text-primary font-bold">100% HERMÉTICA</span>
+</div>
+<div class="absolute bottom-6 right-6 glass-pill px-3 py-1.5 rounded-full flex items-center gap-1.5 shadow-sm">
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+<span class="font-label-uppercase text-label-uppercase text-primary font-bold">BPA FREE</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. Interactive Product Customizer: 'Colección Nova' -->
+<section class="py-16 md:py-24 bg-surface-container-lowest border-y border-outline-variant/30" id="coleccion-nova">
+<div class="max-w-7xl mx-auto px-6 md:px-12">
+<div class="text-center max-w-2xl mx-auto mb-14">
+<span class="font-label-uppercase text-label-uppercase text-secondary tracking-widest uppercase">Diseño de Precisión</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary mt-2">La Botella Definitiva: Colección Nova</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-3">Personaliza cada detalle para adaptarla a tu ritmo. Acero inoxidable reciclado 18/8 con sellado al vacío multicapa.</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Interactive Preview Box -->
+<div class="lg:col-span-6 bg-surface-container-low rounded-3xl p-8 md:p-12 relative flex flex-col items-center justify-center border border-outline-variant/30">
+<div class="absolute top-6 left-6 bg-surface-container-lowest px-3 py-1 rounded-full border border-outline-variant/40 font-label-sm text-label-sm text-on-surface-variant">
+            Edición Escandinava 2024
+          </div>
+<div class="relative w-64 md:w-80 h-96 flex items-center justify-center my-6">
+<img class="max-h-full object-contain filter drop-shadow-2xl transition-all duration-300" data-alt="Sleek studio product shot of the Nova thermal water bottle rendered in ultra-matte satin finish with clean architectural lines and stainless steel threaded lid. High key softbox studio illumination highlighting pure surface tactile quality, subtle light reflection, and premium powder coating texture in pristine modern presentation." id="productImage" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCdWcwt09bdViZeGWUPSgl27QSyYkRN7VLxEqBAf-EhKzNaWQ_SuM8EVlwCsvGPDjBGsFnYfQVYSmVK_6MFFY6skBzw-WFXVJ29p2lAwMkh-8uzdXM744k4BiRG9kIsOor_DqJpd3i_fiN-rmuFMRXi9412S0OZk-X_vjtRA_BpnZy9vaCIZMoObEgXJLGCsZuAQMhfNCjwIHVECR1xFLHzhM-3aE0sgditebKuHMcnpYk6BvDGrbay6w"/>
+</div>
+<!-- Live dynamic bottle specs tag -->
+<div class="flex items-center gap-4 text-center mt-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant bg-surface px-3 py-1.5 rounded-full border border-outline-variant/40" id="selectedColorLabel">Color: Azul Glaciar</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant bg-surface px-3 py-1.5 rounded-full border border-outline-variant/40" id="selectedSizeLabel">Capacidad: 750 ml</span>
+</div>
+</div>
+<!-- Customizer Controls -->
+<div class="lg:col-span-6 space-y-8">
+<!-- Product Name & Price Header -->
+<div class="flex justify-between items-start border-b border-outline-variant/30 pb-6">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary">FLUYE Nova Insulated</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Garantía térmica perpetua • Cero sabor residual</p>
+</div>
+<div class="text-right">
+<span class="font-headline-lg text-headline-lg font-bold text-primary" id="priceDisplay">$39</span>
+<span class="block font-label-sm text-label-sm text-outline">IVA Incluido</span>
+</div>
+</div>
+<!-- Color Swatches -->
+<div>
+<label class="block font-label-md text-label-md font-bold text-primary mb-3">
+              1. Selecciona tu Tono
+            </label>
+<div class="flex flex-wrap items-center gap-4" id="colorSwatches">
+<!-- Azul Glaciar -->
+<button class="color-btn active ring-2 ring-primary ring-offset-2 w-10 h-10 rounded-full bg-[#0284C7] transition-all hover:scale-110 relative" onclick="setColor('Azul Glaciar', 'bg-[#0284C7]')" title="Azul Glaciar" type="button"></button>
+<!-- Verde Salvia -->
+<button class="color-btn hover:ring-2 hover:ring-outline ring-offset-2 w-10 h-10 rounded-full bg-[#607D6E] transition-all hover:scale-110" onclick="setColor('Verde Salvia', 'bg-[#607D6E]')" title="Verde Salvia" type="button"></button>
+<!-- Negro Obsidiana -->
+<button class="color-btn hover:ring-2 hover:ring-outline ring-offset-2 w-10 h-10 rounded-full bg-[#18181B] transition-all hover:scale-110" onclick="setColor('Negro Obsidiana', 'bg-[#18181B]')" title="Negro Obsidiana" type="button"></button>
+<!-- Arena Terracota -->
+<button class="color-btn hover:ring-2 hover:ring-outline ring-offset-2 w-10 h-10 rounded-full bg-[#C2785C] transition-all hover:scale-110" onclick="setColor('Arena Terracota', 'bg-[#C2785C]')" title="Arena Terracota" type="button"></button>
+<!-- Blanco Nieve -->
+<button class="color-btn hover:ring-2 hover:ring-outline ring-offset-2 w-10 h-10 rounded-full bg-[#F1F5F9] border border-outline-variant transition-all hover:scale-110" onclick="setColor('Blanco Nieve', 'bg-[#F1F5F9] border border-outline-variant')" title="Blanco Nieve" type="button"></button>
+</div>
+</div>
+<!-- Size Selector -->
+<div>
+<label class="block font-label-md text-label-md font-bold text-primary mb-3">
+              2. Capacidad
+            </label>
+<div class="grid grid-cols-3 gap-3">
+<button class="size-btn py-3.5 px-4 rounded-xl border border-outline-variant/60 text-center font-label-md hover:border-primary transition-all" onclick="setSize('500 ml', 34, this)" type="button">
+<span class="block font-bold text-primary">500 ml</span>
+<span class="text-body-sm text-outline">$34 USD</span>
+</button>
+<button class="size-btn py-3.5 px-4 rounded-xl border-2 border-primary bg-primary-fixed/30 text-center font-label-md transition-all" onclick="setSize('750 ml', 39, this)" type="button">
+<span class="block font-bold text-primary">750 ml</span>
+<span class="text-body-sm text-secondary font-semibold">$39 USD</span>
+</button>
+<button class="size-btn py-3.5 px-4 rounded-xl border border-outline-variant/60 text-center font-label-md hover:border-primary transition-all" onclick="setSize('1000 ml', 44, this)" type="button">
+<span class="block font-bold text-primary">1000 ml</span>
+<span class="text-body-sm text-outline">$44 USD</span>
+</button>
+</div>
+</div>
+<!-- Lid Type Selection -->
+<div>
+<label class="block font-label-md text-label-md font-bold text-primary mb-3">
+              3. Tipo de Tapa
+            </label>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+<label class="flex items-center gap-3 p-3.5 rounded-xl border border-outline-variant/60 cursor-pointer hover:bg-surface-container-low transition-colors">
+<input checked="" class="text-primary focus:ring-secondary h-4 w-4" name="lidOption" type="radio"/>
+<div>
+<span class="block font-label-md text-label-md font-semibold text-primary">Tapa Hermética Clásica</span>
+<span class="font-body-sm text-body-sm text-outline">Asa de acero ergonómica</span>
+</div>
+</label>
+<label class="flex items-center gap-3 p-3.5 rounded-xl border border-outline-variant/60 cursor-pointer hover:bg-surface-container-low transition-colors">
+<input class="text-primary focus:ring-secondary h-4 w-4" name="lidOption" type="radio"/>
+<div>
+<span class="block font-label-md text-label-md font-semibold text-primary">Tapa Deportiva Activa</span>
+<span class="font-body-sm text-body-sm text-outline">Sorbete suave integrado</span>
+</div>
+</label>
+</div>
+</div>
+<!-- CTA and Shipping status -->
+<div class="pt-4 space-y-3">
+<button class="w-full bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md font-bold py-4 rounded-full flex items-center justify-center gap-2 shadow-lg hover:shadow-xl transition-all active:scale-98" type="button">
+<span class="material-symbols-outlined text-[20px]">add_shopping_cart</span>
+<span>Añadir al Carrito - Envío Inmediato</span>
+</button>
+<div class="flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm px-2">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+<span>Stock disponible en almacén central</span>
+</div>
+<div class="flex items-center gap-1 font-medium">
+<span class="material-symbols-outlined text-[16px] text-secondary">cached</span>
+<span>30 días de prueba sin costo</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. Technology Section: 'Tecnología TripleCool™' -->
+<section class="py-16 md:py-24 bg-surface" id="tecnologia">
+<div class="max-w-7xl mx-auto px-6 md:px-12">
+<div class="max-w-3xl mb-16">
+<span class="font-label-uppercase text-label-uppercase text-secondary tracking-widest uppercase">Ingeniería Térmica Avanzada</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary mt-2">Tecnología TripleCool™: Aislamiento sin precedentes.</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-4">
+          Una estructura de 3 capas sin puentes térmicos. Cada sorbo mantiene exactamente la frescura original o el calor reconfortante con el que comenzaste el día.
+        </p>
+</div>
+<!-- Bento Breakdown of Layers & Perks -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Layer 1 -->
+<div class="bg-surface-container-lowest p-8 rounded-3xl border border-outline-variant/30 flex flex-col justify-between hover:border-secondary/40 transition-colors">
+<div class="space-y-4">
+<div class="w-12 h-12 rounded-2xl bg-secondary-fixed flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[24px]">shield</span>
+</div>
+<span class="font-label-uppercase text-label-uppercase text-outline">CAPA EXTERNA 01</span>
+<h3 class="font-headline-sm text-headline-sm text-primary">Acero Inoxidable 18/8</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Grado alimenticio y médico de alta densidad. Resiste impactos, caídas y no transfiere olores ni sabores metálicos a tus bebidas.
+            </p>
+</div>
+<div class="mt-6 pt-4 border-t border-outline-variant/20 flex items-center gap-2 font-label-sm text-label-sm text-secondary font-semibold">
+<span class="material-symbols-outlined text-[18px]">done_all</span> Resistente a abolladuras
+          </div>
+</div>
+<!-- Layer 2 -->
+<div class="bg-surface-container-lowest p-8 rounded-3xl border border-secondary/40 relative shadow-sm flex flex-col justify-between">
+<div class="absolute -top-3 right-8 bg-secondary text-on-secondary px-3 py-0.5 rounded-full font-label-uppercase text-[10px] font-bold">
+            PATENTADO
+          </div>
+<div class="space-y-4">
+<div class="w-12 h-12 rounded-2xl bg-secondary flex items-center justify-center text-on-secondary">
+<span class="material-symbols-outlined text-[24px]">layers</span>
+</div>
+<span class="font-label-uppercase text-label-uppercase text-secondary">NÚCLEO AL VACÍO 02</span>
+<h3 class="font-headline-sm text-headline-sm text-primary">Cámara de Vacío con Cobre</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Una delgada envoltura de cobre electrolítico refleja la radiación calórica, bloqueando la pérdida de temperatura de forma 40% más eficiente.
+            </p>
+</div>
+<div class="mt-6 pt-4 border-t border-outline-variant/20 flex items-center gap-2 font-label-sm text-label-sm text-secondary font-semibold">
+<span class="material-symbols-outlined text-[18px]">thermostat</span> Cero escape térmico
+          </div>
+</div>
+<!-- Layer 3 -->
+<div class="bg-surface-container-lowest p-8 rounded-3xl border border-outline-variant/30 flex flex-col justify-between hover:border-secondary/40 transition-colors">
+<div class="space-y-4">
+<div class="w-12 h-12 rounded-2xl bg-tertiary-fixed flex items-center justify-center text-tertiary-container">
+<span class="material-symbols-outlined text-[24px]">water_drop</span>
+</div>
+<span class="font-label-uppercase text-label-uppercase text-outline">CAPA INTERNA 03</span>
+<h3 class="font-headline-sm text-headline-sm text-primary">Pulido Electrolítico PureFlow™</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Superficie ultra lisa donde las bacterias y residuos no pueden anclarse. Mantiene el agua pura, cristalina y limpia en cada sorbo.
+            </p>
+</div>
+<div class="mt-6 pt-4 border-t border-outline-variant/20 flex items-center gap-2 font-label-sm text-label-sm text-secondary font-semibold">
+<span class="material-symbols-outlined text-[18px]">verified_user</span> Fácil limpieza instantánea
+          </div>
+</div>
+</div>
+<!-- Feature Grid Icons -->
+<div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 bg-surface-container-low p-8 rounded-3xl border border-outline-variant/30">
+<div class="flex items-start gap-4">
+<div class="p-3 bg-surface-container-lowest rounded-xl text-primary">
+<span class="material-symbols-outlined text-[24px]">humidity_low</span>
+</div>
+<div>
+<h4 class="font-label-md text-label-md font-bold text-primary">Cero Condensación</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Nunca mojará tus manos, apuntes ni el interior de tu mochila o maletín.</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="p-3 bg-surface-container-lowest rounded-xl text-primary">
+<span class="material-symbols-outlined text-[24px]">science</span>
+</div>
+<div>
+<h4 class="font-label-md text-label-md font-bold text-primary">Libre de Toxinas &amp; BPA</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Totalmente seguro para ti y para los tuyos. Aprobado por la FDA europea.</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="p-3 bg-surface-container-lowest rounded-xl text-primary">
+<span class="material-symbols-outlined text-[24px]">fitness_center</span>
+</div>
+<div>
+<h4 class="font-label-md text-label-md font-bold text-primary">Garantía Vitalicia</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Diseñada para durar décadas, sustituyendo cientos de botellas plásticas.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. Collections / Lifestyles Grid -->
+<section class="py-16 md:py-24 bg-surface-container-lowest" id="colecciones">
+<div class="max-w-7xl mx-auto px-6 md:px-12">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+<div>
+<span class="font-label-uppercase text-label-uppercase text-secondary tracking-widest uppercase">Diseñada Para Tu Rutina</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary mt-2">Colecciones por Estilo de Vida</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md mt-4 md:mt-0">
+          Ya sea en tu escritorio de trabajo, en senderos de montaña o en tu sesión matutina de vinyasa.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Urban & Office -->
+<div class="group relative rounded-3xl overflow-hidden bg-surface-container-low border border-outline-variant/30 transition-all hover:shadow-xl">
+<div class="aspect-[4/5] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Editorial lifestyle photography of an elegant matte black thermal water bottle placed on a modern oak and concrete architectural desk next to a luxury notebook, fountain pen, and designer laptop. Soft filtered natural window daylight illuminating a tranquil contemporary office interior with Nordic aesthetics." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCaTT7SzjPeKceSmJljZiumPJF6JI0hj-dOeyyP7gq5SfGPGEJtiJKg0RxyW1FerzbYa1epF9e5H3LzCeCDIYqdpCxiF9ZJe9y0lJ2qisKUIjwf8kwBbWodmbKrbGLYm_BetEyJpen2t3TMQkqJiozFJGdtKpNS4R_Fwka618CAMlQn4KOFL8TWNjZwQnZZ8QoYYihtmiq0qRc_v7KValHZpHcRRiAy2VhDQ5kqFOyFIeRAaVqUtXrn1A"/>
+</div>
+<div class="p-6">
+<span class="font-label-uppercase text-label-uppercase text-secondary">ELEGANCIA CONTEMPORÁNEA</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mt-1">Urban &amp; Office</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">Formato estilizado que cabe a la perfección en porta-vasos y maletines de trabajo.</p>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md text-primary font-bold mt-4 group-hover:text-secondary transition-colors" href="#coleccion-nova">
+<span>Explorar Urban</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Outdoor & Trekking -->
+<div class="group relative rounded-3xl overflow-hidden bg-surface-container-low border border-outline-variant/30 transition-all hover:shadow-xl">
+<div class="aspect-[4/5] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Lifestyle outdoor adventure shot featuring a durable olive green vacuum insulated water bottle resting on a granite rock formation overlooking a serene alpine mountain range during golden hour. Cinematic soft warm sunlight hitting the matte rugged coating of the bottle, evoking wanderlust and durability." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQFyGAeeGSGZ0ZNIBFvdKHZF2NmQVdfSD1L5hz5ABoR2uk1hzan3YBys9yR6UZzdz1SwC74L0RO_0_vbELLTu3Qn7ZUQsmx2VICaT9xEE9T-pBpkTL4WDysZZYvYvvaDp2r6QTdg3kI4w74phy4FGC7JdIjZQ1lecqOEbp_nE2HgKUv_c9CG3G3mfhYMn1LRAWNLlH9nyRw7cmT76u2cF2BkUVSjEL87vEuSxX0QF0f1Vf4bmM_PLYYA"/>
+</div>
+<div class="p-6">
+<span class="font-label-uppercase text-label-uppercase text-secondary">MÁXIMA RESISTENCIA 1L</span>
+<h3 class="font-headline-sm text-headline-sm text-primary">Outdoor &amp; Trekking</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">Capacidad expandida de 1000 ml con asa reforzada para mosquetón y senderos exigentes.</p>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md text-primary font-bold mt-4 group-hover:text-secondary transition-colors" href="#coleccion-nova">
+<span>Explorar Outdoor</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Studio & Yoga -->
+<div class="group relative rounded-3xl overflow-hidden bg-surface-container-low border border-outline-variant/30 transition-all hover:shadow-xl">
+<div class="aspect-[4/5] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Calm bright wellness studio scene with a pastel terracotta and sandstone insulated water bottle positioned next to a natural cork yoga mat, linen towel, and lush indoor plant. High key bright soft lighting creating a peaceful mindfulness atmosphere, emphasizing purity, wellbeing, and organic lifestyle balance." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB8PanMktYFCz84eYSl77OPXjfOp1NanZuTVYuv3NNjePjtF-ut0EqK4sfW-5TtvhxUy707XqSfUnv0h1PtosL8oikJqR6lGP-_JYmDKnhqSFPgXe4nB99PSGgulO_I9IwrMx80SZeV6dzyt8GAhH59_lqWzFfWDy_Tcs0_ebb2CQ4CO2unqXUyc5-8fY3HWzXoeUWrTJ3RsQRqnsPPcEVS8ihXCnuHUjzEV2_-aEGdhd1-NDrXYe0HCQ"/>
+</div>
+<div class="p-6">
+<span class="font-label-uppercase text-label-uppercase text-secondary">ERGONOMÍA ACTIVA</span>
+<h3 class="font-headline-sm text-headline-sm text-primary">Studio &amp; Yoga</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">Tapa deportiva de sorbo rápido con boquilla antimicrobiana de fácil apertura a una mano.</p>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md text-primary font-bold mt-4 group-hover:text-secondary transition-colors" href="#coleccion-nova">
+<span>Explorar Studio</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. Sustainability & Ecological Impact: 'Misión Océanos Limpios' -->
+<section class="py-16 md:py-24 bg-surface text-on-surface relative overflow-hidden" id="mision">
+<div class="max-w-7xl mx-auto px-6 md:px-12">
+<div class="bg-primary text-on-primary rounded-3xl p-8 md:p-16 relative overflow-hidden">
+<!-- Abstract Liquid Glow Backing -->
+<div class="absolute -right-24 -top-24 w-96 h-96 rounded-full bg-secondary opacity-30 blur-3xl pointer-events-none"></div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
+<div class="lg:col-span-6 space-y-6">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-tertiary-fixed text-tertiary-container font-label-uppercase text-label-uppercase">
+<span class="material-symbols-outlined text-[16px]">compost</span>
+              MISIÓN OCÉANOS LIMPIOS
+            </div>
+<h2 class="font-display-hero text-display-hero-mobile md:text-headline-lg text-on-primary tracking-tight">
+              Cada trago consciente limpia nuestras costas.
+            </h2>
+<p class="font-body-lg text-body-lg text-on-primary-container max-w-lg">
+              No solo creamos un objeto hermoso: financiamos la recolección activa de plásticos en hábitats marinos vulnerables por cada botella FLUYE adquirida.
+            </p>
+<div class="flex items-center gap-4 pt-2">
+<div class="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm border border-white/10 text-on-primary font-label-sm">
+<span class="material-symbols-outlined text-tertiary-fixed text-[18px]">verified</span>
+<span>Empresa Certificada B-Corp</span>
+</div>
+<div class="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm border border-white/10 text-on-primary font-label-sm">
+<span class="material-symbols-outlined text-secondary-fixed text-[18px]">water</span>
+<span>1% For The Planet</span>
+</div>
+</div>
+</div>
+<!-- Impact Counters -->
+<div class="lg:col-span-6 grid grid-cols-1 sm:grid-cols-2 gap-6">
+<div class="bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-md">
+<span class="material-symbols-outlined text-tertiary-fixed text-[32px]">delete_sweep</span>
+<div class="font-headline-lg text-headline-lg font-extrabold text-on-primary mt-2">+2.4M</div>
+<p class="font-body-sm text-body-sm text-on-primary-container mt-1">Botellas plásticas desechables evitadas hasta hoy.</p>
+</div>
+<div class="bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-md">
+<span class="material-symbols-outlined text-secondary-fixed text-[32px]">waves</span>
+<div class="font-headline-lg text-headline-lg font-extrabold text-on-primary mt-2">15,000 kg</div>
+<p class="font-body-sm text-body-sm text-on-primary-container mt-1">De plástico interceptado y reciclado del océano.</p>
+</div>
+<div class="bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-md sm:col-span-2">
+<div class="flex items-center justify-between">
+<div>
+<span class="font-label-uppercase text-label-uppercase text-tertiary-fixed">TU IMPACTO INDIVIDUAL</span>
+<div class="font-headline-md text-headline-md text-on-primary mt-1">1 FLUYE = 167 botellas menos al año</div>
+</div>
+<span class="material-symbols-outlined text-tertiary-fixed text-[36px] hidden sm:block">eco</span>
+</div>
+<div class="w-full bg-white/10 h-2 rounded-full mt-4 overflow-hidden">
+<div class="bg-tertiary-fixed h-full rounded-full w-4/5"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 8. Social Proof, Press & Real Customer Reviews -->
+<section class="py-16 md:py-24 bg-surface-container-lowest">
+<div class="max-w-7xl mx-auto px-6 md:px-12">
+<!-- As Seen In Media Logotypes -->
+<div class="text-center mb-16">
+<p class="font-label-uppercase text-label-uppercase text-outline tracking-widest mb-6">RECONOCIDA POR LÍDERES DE DISEÑO &amp; ESTILO DE VIDA</p>
+<div class="flex flex-wrap items-center justify-center gap-8 md:gap-16 opacity-60 grayscale hover:grayscale-0 transition-all">
+<span class="font-headline-md font-extrabold tracking-tighter text-primary">GQ</span>
+<span class="font-headline-md font-serif italic text-primary">Vogue Living</span>
+<span class="font-headline-md font-bold tracking-tight text-primary">Men's Health</span>
+<span class="font-headline-md font-mono uppercase text-primary">ARCHITECTURAL DIGEST</span>
+<span class="font-headline-md font-extrabold text-primary">WIRED</span>
+</div>
+</div>
+<!-- Rating Header -->
+<div class="flex flex-col md:flex-row items-center justify-between pb-10 border-b border-outline-variant/30 gap-6">
+<div>
+<div class="flex items-center gap-1.5 text-secondary">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold text-primary ml-2 font-headline-sm text-headline-sm">4.9 / 5.0</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">Más de 8,500 personas han transformado su hidratación diaria con FLUYE.</p>
+</div>
+<a class="bg-surface-container-low hover:bg-surface-container text-primary font-label-md text-label-md font-semibold px-6 py-3 rounded-full border border-outline-variant/40 transition-colors" href="#coleccion-nova">
+          Ver todas las valoraciones
+        </a>
+</div>
+<!-- Testimonials Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
+<!-- Review 1 -->
+<div class="bg-surface-container-low p-6 rounded-2xl border border-outline-variant/30 flex flex-col justify-between">
+<div class="space-y-3">
+<div class="flex text-secondary">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary">"El agua sigue helada 24 horas después"</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Dejé mi botella en el coche bajo el sol de verano durante 6 horas. Cuando regresé, los cubitos de hielo seguían intactos. La textura mate satinada tiene un agarre inmejorable.
+            </p>
+</div>
+<div class="flex items-center gap-3 pt-6 border-t border-outline-variant/20 mt-4">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center font-bold text-secondary">
+              MC
+            </div>
+<div>
+<div class="font-label-md text-label-md font-bold text-primary">Mateo Calderón</div>
+<div class="font-label-sm text-label-sm text-on-tertiary-container flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">check_circle</span> Comprador Verificado • 750ml Glaciar
+              </div>
+</div>
+</div>
+</div>
+<!-- Review 2 -->
+<div class="bg-surface-container-low p-6 rounded-2xl border border-outline-variant/30 flex flex-col justify-between">
+<div class="space-y-3">
+<div class="flex text-secondary">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary">"Pura arquitectura en tus manos"</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Trabajo en un estudio de diseño y los acabados son exquisitos. Sin marcas de condensación en mi mesa y el sabor del café o agua de manantial es 100% puro.
+            </p>
+</div>
+<div class="flex items-center gap-3 pt-6 border-t border-outline-variant/20 mt-4">
+<div class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center font-bold text-primary">
+              VG
+            </div>
+<div>
+<div class="font-label-md text-label-md font-bold text-primary">Valentina Gómez</div>
+<div class="font-label-sm text-label-sm text-on-tertiary-container flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">check_circle</span> Compradora Verificada • 500ml Obsidiana
+              </div>
+</div>
+</div>
+</div>
+<!-- Review 3 -->
+<div class="bg-surface-container-low p-6 rounded-2xl border border-outline-variant/30 flex flex-col justify-between">
+<div class="space-y-3">
+<div class="flex text-secondary">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary">"Adiós botellas de plástico para siempre"</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Llevo 6 meses con la de 1000ml para crossfit y senderismo. Se ha caído en rocas un par de veces y el recubrimiento apenas tiene un rasguño. Hermética total.
+            </p>
+</div>
+<div class="flex items-center gap-3 pt-6 border-t border-outline-variant/20 mt-4">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed-dim flex items-center justify-center font-bold text-secondary">
+              SR
+            </div>
+<div>
+<div class="font-label-md text-label-md font-bold text-primary">Santiago Ramos</div>
+<div class="font-label-sm text-label-sm text-on-tertiary-container flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">check_circle</span> Comprador Verificado • 1000ml Salvia
+              </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQ Section (Anchored to Nav) -->
+<section class="py-16 md:py-24 bg-surface" id="faq">
+<div class="max-w-4xl mx-auto px-6 md:px-12">
+<div class="text-center mb-12">
+<span class="font-label-uppercase text-label-uppercase text-secondary tracking-widest uppercase">Resolvemos tus dudas</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary mt-2">Preguntas Frecuentes</h2>
+</div>
+<div class="space-y-4">
+<!-- Question 1 -->
+<details class="group bg-surface-container-lowest p-6 rounded-2xl border border-outline-variant/30 cursor-pointer">
+<summary class="flex justify-between items-center font-headline-sm text-headline-sm text-primary list-none">
+<span>¿Es apta para lavavajillas?</span>
+<span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<p class="font-body-md text-body-md text-on-surface-variant mt-4">
+            Para conservar el acabado satinado de alta gama y el aislamiento térmico durante décadas, recomendamos el lavado manual con agua tibia y jabón suave. La tapa sí puede lavarse en la bandeja superior del lavavajillas.
+          </p>
+</details>
+<!-- Question 2 -->
+<details class="group bg-surface-container-lowest p-6 rounded-2xl border border-outline-variant/30 cursor-pointer">
+<summary class="flex justify-between items-center font-headline-sm text-headline-sm text-primary list-none">
+<span>¿En qué consiste la Garantía de por Vida?</span>
+<span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<p class="font-body-md text-body-md text-on-surface-variant mt-4">
+            Nuestra garantía cubre cualquier falla en la retención térmica de la cámara al vacío y defectos de manufactura para toda la vida del producto. Si tu botella pierde su poder térmico sin golpes estructurales graves, te enviamos una nueva.
+          </p>
+</details>
+<!-- Question 3 -->
+<details class="group bg-surface-container-lowest p-6 rounded-2xl border border-outline-variant/30 cursor-pointer">
+<summary class="flex justify-between items-center font-headline-sm text-headline-sm text-primary list-none">
+<span>¿Puedo poner bebidas carbonatadas o café caliente?</span>
+<span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+</summary>
+<p class="font-body-md text-body-md text-on-surface-variant mt-4">
+            Sí. El acero 18/8 con pulido PureFlow™ no reacciona ante la acidez del café ni ante bebidas gaseosas. El sellado hermético evita pérdidas de gas o derrames accidentales en tu bolso.
+          </p>
+</details>
+</div>
+</div>
+</section>
+<!-- Newsletter & Early Community Access -->
+<section class="py-16 bg-surface-container-low border-t border-outline-variant/30">
+<div class="max-w-4xl mx-auto px-6 md:px-12 text-center space-y-6">
+<span class="font-label-uppercase text-label-uppercase text-secondary tracking-widest uppercase">Comunidad Fluye</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary">Únete a la hidratación consciente.</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-lg mx-auto">
+        Suscríbete para recibir un <strong class="text-primary font-bold">10% de descuento en tu primera orden</strong>, historias de impacto oceánico y lanzamientos de ediciones limitadas.
+      </p>
+<form class="flex flex-col sm:flex-row gap-3 max-w-md mx-auto" onsubmit="event.preventDefault(); alert('¡Gracias por unirte a FLUYE! Revisa tu correo para tu cupón del 10%.');">
+<input class="flex-1 px-5 py-3.5 rounded-full border border-outline-variant/60 focus:outline-none focus:ring-2 focus:ring-secondary bg-surface-container-lowest font-body-md text-on-surface" placeholder="Tu correo electrónico..." required="" type="email"/>
+<button class="bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md font-bold px-7 py-3.5 rounded-full transition-all shadow-sm" type="submit">
+          Suscribirme
+        </button>
+</form>
+<p class="font-label-sm text-label-sm text-outline">Sin spam. Desuscríbete cuando quieras en un solo clic.</p>
+</div>
+</section>
+<!-- 9. Shared Component: Footer (Exact mapping from JSON source) -->
+<footer class="full-width bottom bg-surface-container-high dark:bg-inverse-surface border-t border-outline-variant/30 dark:border-outline/20">
+<div class="w-full max-w-7xl mx-auto px-6 md:px-12 py-16">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-outline-variant/30">
+<!-- Brand Presentation Col -->
+<div class="md:col-span-4 space-y-4">
+<a class="text-headline-md font-headline-md font-extrabold text-primary dark:text-inverse-primary tracking-wider inline-flex items-center gap-1.5" href="#">
+            FLUYE
+            <span class="w-2 h-2 rounded-full bg-secondary inline-block"></span>
+</a>
+<p class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant max-w-sm">
+            Diseñamos objetos de hidratación que combinan pureza escandinava, ingeniería térmica perpetua y un compromiso innegociable con nuestros océanos.
+          </p>
+<div class="flex items-center gap-3 pt-2 text-on-surface-variant">
+<a class="p-2 bg-surface-container rounded-full hover:text-secondary transition-colors" href="#"><span class="material-symbols-outlined text-[20px]">public</span></a>
+<a class="p-2 bg-surface-container rounded-full hover:text-secondary transition-colors" href="#"><span class="material-symbols-outlined text-[20px]">camera</span></a>
+<a class="p-2 bg-surface-container rounded-full hover:text-secondary transition-colors" href="#"><span class="material-symbols-outlined text-[20px]">mail</span></a>
+</div>
+</div>
+<!-- Navigation Links Columns (Using JSON links verbatim) -->
+<div class="md:col-span-3 space-y-3">
+<div class="font-label-sm font-label-sm font-bold text-primary dark:text-inverse-primary uppercase tracking-wider">Explorar</div>
+<ul class="space-y-2.5">
+<li><a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-150" href="#colecciones">Colecciones</a></li>
+<li><a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-150" href="#personalizacion">Personalización</a></li>
+<li><a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-150" href="#tecnologia">Tecnología Térmica</a></li>
+<li><a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-150" href="#faq">Preguntas Frecuentes</a></li>
+</ul>
+</div>
+<div class="md:col-span-3 space-y-3">
+<div class="font-label-sm font-label-sm font-bold text-primary dark:text-inverse-primary uppercase tracking-wider">Compromiso</div>
+<ul class="space-y-2.5">
+<li><a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-150" href="#mision">Nuestra Misión</a></li>
+<li><a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-150" href="#">Informe de Sostenibilidad</a></li>
+<li><a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-150" href="#">Garantía de por Vida</a></li>
+<li><a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors duration-150" href="#">Términos y Privacidad</a></li>
+</ul>
+</div>
+<!-- Safe Checkout Badges -->
+<div class="md:col-span-2 space-y-3">
+<div class="font-label-sm font-label-sm font-bold text-primary dark:text-inverse-primary uppercase tracking-wider">Pagos Seguros</div>
+<p class="font-body-sm text-body-sm text-outline">Encriptación SSL 256-bit y pasarelas verificadas.</p>
+<div class="flex flex-wrap gap-2 text-on-surface-variant font-label-sm">
+<span class="px-2 py-1 bg-surface-container rounded border border-outline-variant/30">Visa</span>
+<span class="px-2 py-1 bg-surface-container rounded border border-outline-variant/30">Mastercard</span>
+<span class="px-2 py-1 bg-surface-container rounded border border-outline-variant/30">Apple Pay</span>
+<span class="px-2 py-1 bg-surface-container rounded border border-outline-variant/30">PayPal</span>
+</div>
+</div>
+</div>
+<!-- Footer Bottom Bar (JSON copyright_text verbatim) -->
+<div class="pt-8 flex flex-col md:flex-row items-center justify-between text-on-surface-variant dark:text-surface-variant font-label-sm text-label-sm gap-4">
+<div>
+          © 2024 FLUYE Inc. Hidratación Consciente. Todos los derechos reservados.
+        </div>
+<div class="flex items-center gap-6">
+<span class="flex items-center gap-1.5 text-tertiary-container dark:text-tertiary-fixed font-medium">
+<span class="material-symbols-outlined text-[16px]">nature</span> Diseñado en los países nórdicos • Fabricado responsablemente
+          </span>
+</div>
+</div>
+</div>
+</footer>
+<!-- Vanilla JS Interactive logic for Product Customizer -->
+<script>
+    let currentColor = 'Azul Glaciar';
+    let currentSize = '750 ml';
+    let currentPrice = 39;
+
+    function setColor(colorName, colorClass) {
+      currentColor = colorName;
+      document.getElementById('selectedColorLabel').innerText = 'Color: ' + colorName;
+      
+      // Update visual active ring
+      const buttons = document.querySelectorAll('#colorSwatches .color-btn');
+      buttons.forEach(btn => {
+        btn.classList.remove('ring-2', 'ring-primary', 'ring-offset-2');
+      });
+      event.currentTarget.classList.add('ring-2', 'ring-primary', 'ring-offset-2');
+    }
+
+    function setSize(sizeText, price, element) {
+      currentSize = sizeText;
+      currentPrice = price;
+      
+      document.getElementById('selectedSizeLabel').innerText = 'Capacidad: ' + sizeText;
+      document.getElementById('priceDisplay').innerText = '$' + price;
+
+      // Update button borders
+      const buttons = document.querySelectorAll('.size-btn');
+      buttons.forEach(b => {
+        b.classList.remove('border-2', 'border-primary', 'bg-primary-fixed/30');
+        b.classList.add('border', 'border-outline-variant/60');
+      });
+
+      element.classList.remove('border', 'border-outline-variant/60');
+      element.classList.add('border-2', 'border-primary', 'bg-primary-fixed/30');
+    }
+  </script>
+</body></html>
